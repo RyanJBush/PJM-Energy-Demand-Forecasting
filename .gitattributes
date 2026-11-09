@@ -1,0 +1,2 @@
+# keep the committed chart byte-identical to what eia930.chart writes, regardless of core.autocrlf
+*.svg text eol=lf

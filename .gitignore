@@ -1,0 +1,9 @@
+outputs/
+__pycache__/
+.pytest_cache/
+CHECKPOINT*.md
+PAIRED_REPORT_PJM.md
+.venv*/
+EIA930_*.csv
+*_PACKET.md
+*_preview.png

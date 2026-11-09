@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Helvetica, Arial, sans-serif">
+<title>PJM origin 2024-12-25T00:00:00Z: actual vs weekly baseline vs ridge (retrospective simulation)</title>
+<desc>24 hourly targets, horizon 1 to 24, hour-ending UTC. Day MAE: weekly baseline 4,884.58 MW, ridge 16,321.19 MW. Ridge over-forecast 24 of 24 hours.</desc>
+<rect width="1000" height="600" fill="#ffffff"/>
+<text x="95" y="30" font-size="20" font-weight="bold" fill="#111">PJM demand, forecast origin 2024-12-25 00:00 UTC (24 targets, horizon 1-24 h)</text>
+<text x="95" y="54" font-size="14" font-weight="bold" fill="#B00020">RETROSPECTIVE SIMULATION - historical replay, not a live forecast - real EIA-930 snapshot (PJM)</text>
+<text x="95" y="78" font-size="14" fill="#111">Day MAE (this origin): <tspan fill="#0072B2" font-weight="bold">weekly baseline 4,884.58 MW</tspan>   |   <tspan fill="#D55E00" font-weight="bold">ridge 16,321.19 MW</tspan></text>
+<text x="95" y="98" font-size="13" fill="#444">Ridge forecast above actual in 24 of 24 hours; weekly baseline above actual in 22 of 24.</text>
+<line x1="95" y1="500.0" x2="970" y2="500.0" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="504.0" font-size="12" text-anchor="end" fill="#333">85,000</text>
+<line x1="95" y1="440.8" x2="970" y2="440.8" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="444.8" font-size="12" text-anchor="end" fill="#333">90,000</text>
+<line x1="95" y1="381.7" x2="970" y2="381.7" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="385.7" font-size="12" text-anchor="end" fill="#333">95,000</text>
+<line x1="95" y1="322.5" x2="970" y2="322.5" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="326.5" font-size="12" text-anchor="end" fill="#333">100,000</text>
+<line x1="95" y1="263.3" x2="970" y2="263.3" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="267.3" font-size="12" text-anchor="end" fill="#333">105,000</text>
+<line x1="95" y1="204.2" x2="970" y2="204.2" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="208.2" font-size="12" text-anchor="end" fill="#333">110,000</text>
+<line x1="95" y1="145.0" x2="970" y2="145.0" stroke="#dddddd" stroke-width="1"/>
+<text x="87" y="149.0" font-size="12" text-anchor="end" fill="#333">115,000</text>
+<text transform="translate(22 322) rotate(-90)" font-size="14" text-anchor="middle" fill="#111">Demand (MW)</text>
+<line x1="95" y1="145" x2="95" y2="500" stroke="#333" stroke-width="1.5"/>
+<line x1="95" y1="500" x2="970" y2="500" stroke="#333" stroke-width="1.5"/>
+<line x1="95.0" y1="500" x2="95.0" y2="505" stroke="#333"/>
+<text x="95.0" y="520" font-size="11" text-anchor="middle" fill="#333">01</text>
+<line x1="133.0" y1="500" x2="133.0" y2="505" stroke="#333"/>
+<text x="133.0" y="520" font-size="11" text-anchor="middle" fill="#333">02</text>
+<line x1="171.1" y1="500" x2="171.1" y2="505" stroke="#333"/>
+<text x="171.1" y="520" font-size="11" text-anchor="middle" fill="#333">03</text>
+<line x1="209.1" y1="500" x2="209.1" y2="505" stroke="#333"/>
+<text x="209.1" y="520" font-size="11" text-anchor="middle" fill="#333">04</text>
+<line x1="247.2" y1="500" x2="247.2" y2="505" stroke="#333"/>
+<text x="247.2" y="520" font-size="11" text-anchor="middle" fill="#333">05</text>
+<line x1="285.2" y1="500" x2="285.2" y2="505" stroke="#333"/>
+<text x="285.2" y="520" font-size="11" text-anchor="middle" fill="#333">06</text>
+<line x1="323.3" y1="500" x2="323.3" y2="505" stroke="#333"/>
+<text x="323.3" y="520" font-size="11" text-anchor="middle" fill="#333">07</text>
+<line x1="361.3" y1="500" x2="361.3" y2="505" stroke="#333"/>
+<text x="361.3" y="520" font-size="11" text-anchor="middle" fill="#333">08</text>
+<line x1="399.3" y1="500" x2="399.3" y2="505" stroke="#333"/>
+<text x="399.3" y="520" font-size="11" text-anchor="middle" fill="#333">09</text>
+<line x1="437.4" y1="500" x2="437.4" y2="505" stroke="#333"/>
+<text x="437.4" y="520" font-size="11" text-anchor="middle" fill="#333">10</text>
+<line x1="475.4" y1="500" x2="475.4" y2="505" stroke="#333"/>
+<text x="475.4" y="520" font-size="11" text-anchor="middle" fill="#333">11</text>
+<line x1="513.5" y1="500" x2="513.5" y2="505" stroke="#333"/>
+<text x="513.5" y="520" font-size="11" text-anchor="middle" fill="#333">12</text>
+<line x1="551.5" y1="500" x2="551.5" y2="505" stroke="#333"/>
+<text x="551.5" y="520" font-size="11" text-anchor="middle" fill="#333">13</text>
+<line x1="589.6" y1="500" x2="589.6" y2="505" stroke="#333"/>
+<text x="589.6" y="520" font-size="11" text-anchor="middle" fill="#333">14</text>
+<line x1="627.6" y1="500" x2="627.6" y2="505" stroke="#333"/>
+<text x="627.6" y="520" font-size="11" text-anchor="middle" fill="#333">15</text>
+<line x1="665.7" y1="500" x2="665.7" y2="505" stroke="#333"/>
+<text x="665.7" y="520" font-size="11" text-anchor="middle" fill="#333">16</text>
+<line x1="703.7" y1="500" x2="703.7" y2="505" stroke="#333"/>
+<text x="703.7" y="520" font-size="11" text-anchor="middle" fill="#333">17</text>
+<line x1="741.7" y1="500" x2="741.7" y2="505" stroke="#333"/>
+<text x="741.7" y="520" font-size="11" text-anchor="middle" fill="#333">18</text>
+<line x1="779.8" y1="500" x2="779.8" y2="505" stroke="#333"/>
+<text x="779.8" y="520" font-size="11" text-anchor="middle" fill="#333">19</text>
+<line x1="817.8" y1="500" x2="817.8" y2="505" stroke="#333"/>
+<text x="817.8" y="520" font-size="11" text-anchor="middle" fill="#333">20</text>
+<line x1="855.9" y1="500" x2="855.9" y2="505" stroke="#333"/>
+<text x="855.9" y="520" font-size="11" text-anchor="middle" fill="#333">21</text>
+<line x1="893.9" y1="500" x2="893.9" y2="505" stroke="#333"/>
+<text x="893.9" y="520" font-size="11" text-anchor="middle" fill="#333">22</text>
+<line x1="932.0" y1="500" x2="932.0" y2="505" stroke="#333"/>
+<text x="932.0" y="520" font-size="11" text-anchor="middle" fill="#333">23</text>
+<line x1="970.0" y1="500" x2="970.0" y2="505" stroke="#333"/>
+<text x="970.0" y="520" font-size="11" text-anchor="middle" fill="#333">00</text>
+<text x="95.0" y="536" font-size="11" text-anchor="middle" fill="#333">Dec 25</text>
+<text x="970.0" y="536" font-size="11" text-anchor="middle" fill="#333">Dec 26</text>
+<text x="532" y="562" font-size="14" text-anchor="middle" fill="#111">Target hour, hour-ending UTC (h1 = 01:00Z Dec 25, h24 = 00:00Z Dec 26, the following midnight)</text>
+<polyline points="95.0,364.7 133.0,375.5 171.1,392.0 209.1,416.2 247.2,432.0 285.2,459.3 323.3,478.9 361.3,488.5 399.3,491.3 437.4,493.3 475.4,485.1 513.5,465.4 551.5,439.3 589.6,418.2 627.6,412.1 665.7,410.5 703.7,412.5 741.7,426.1 779.8,435.2 817.8,443.9 855.9,451.7 893.9,445.0 932.0,410.3 970.0,406.1" fill="none" stroke="#111111" stroke-width="3.0"/>
+<circle cx="95.0" cy="364.7" r="3" fill="#111111"/>
+<circle cx="133.0" cy="375.5" r="3" fill="#111111"/>
+<circle cx="171.1" cy="392.0" r="3" fill="#111111"/>
+<circle cx="209.1" cy="416.2" r="3" fill="#111111"/>
+<circle cx="247.2" cy="432.0" r="3" fill="#111111"/>
+<circle cx="285.2" cy="459.3" r="3" fill="#111111"/>
+<circle cx="323.3" cy="478.9" r="3" fill="#111111"/>
+<circle cx="361.3" cy="488.5" r="3" fill="#111111"/>
+<circle cx="399.3" cy="491.3" r="3" fill="#111111"/>
+<circle cx="437.4" cy="493.3" r="3" fill="#111111"/>
+<circle cx="475.4" cy="485.1" r="3" fill="#111111"/>
+<circle cx="513.5" cy="465.4" r="3" fill="#111111"/>
+<circle cx="551.5" cy="439.3" r="3" fill="#111111"/>
+<circle cx="589.6" cy="418.2" r="3" fill="#111111"/>
+<circle cx="627.6" cy="412.1" r="3" fill="#111111"/>
+<circle cx="665.7" cy="410.5" r="3" fill="#111111"/>
+<circle cx="703.7" cy="412.5" r="3" fill="#111111"/>
+<circle cx="741.7" cy="426.1" r="3" fill="#111111"/>
+<circle cx="779.8" cy="435.2" r="3" fill="#111111"/>
+<circle cx="817.8" cy="443.9" r="3" fill="#111111"/>
+<circle cx="855.9" cy="451.7" r="3" fill="#111111"/>
+<circle cx="893.9" cy="445.0" r="3" fill="#111111"/>
+<circle cx="932.0" cy="410.3" r="3" fill="#111111"/>
+<circle cx="970.0" cy="406.1" r="3" fill="#111111"/>
+<polyline points="95.0,335.7 133.0,344.8 171.1,370.5 209.1,408.8 247.2,440.7 285.2,469.5 323.3,477.3 361.3,485.1 399.3,483.4 437.4,479.3 475.4,443.9 513.5,360.7 551.5,302.5 589.6,306.2 627.6,337.3 665.7,357.7 703.7,367.2 741.7,368.6 779.8,360.6 817.8,351.8 855.9,349.9 893.9,326.8 932.0,287.2 970.0,288.4" fill="none" stroke="#0072B2" stroke-width="2.2" stroke-dasharray="7 4"/>
+<circle cx="95.0" cy="335.7" r="3" fill="#0072B2"/>
+<circle cx="133.0" cy="344.8" r="3" fill="#0072B2"/>
+<circle cx="171.1" cy="370.5" r="3" fill="#0072B2"/>
+<circle cx="209.1" cy="408.8" r="3" fill="#0072B2"/>
+<circle cx="247.2" cy="440.7" r="3" fill="#0072B2"/>
+<circle cx="285.2" cy="469.5" r="3" fill="#0072B2"/>
+<circle cx="323.3" cy="477.3" r="3" fill="#0072B2"/>
+<circle cx="361.3" cy="485.1" r="3" fill="#0072B2"/>
+<circle cx="399.3" cy="483.4" r="3" fill="#0072B2"/>
+<circle cx="437.4" cy="479.3" r="3" fill="#0072B2"/>
+<circle cx="475.4" cy="443.9" r="3" fill="#0072B2"/>
+<circle cx="513.5" cy="360.7" r="3" fill="#0072B2"/>
+<circle cx="551.5" cy="302.5" r="3" fill="#0072B2"/>
+<circle cx="589.6" cy="306.2" r="3" fill="#0072B2"/>
+<circle cx="627.6" cy="337.3" r="3" fill="#0072B2"/>
+<circle cx="665.7" cy="357.7" r="3" fill="#0072B2"/>
+<circle cx="703.7" cy="367.2" r="3" fill="#0072B2"/>
+<circle cx="741.7" cy="368.6" r="3" fill="#0072B2"/>
+<circle cx="779.8" cy="360.6" r="3" fill="#0072B2"/>
+<circle cx="817.8" cy="351.8" r="3" fill="#0072B2"/>
+<circle cx="855.9" cy="349.9" r="3" fill="#0072B2"/>
+<circle cx="893.9" cy="326.8" r="3" fill="#0072B2"/>
+<circle cx="932.0" cy="287.2" r="3" fill="#0072B2"/>
+<circle cx="970.0" cy="288.4" r="3" fill="#0072B2"/>
+<polyline points="95.0,172.8 133.0,162.8 171.1,181.6 209.1,216.7 247.2,251.3 285.2,313.4 323.3,326.6 361.3,331.7 399.3,329.1 437.4,311.8 475.4,271.6 513.5,210.1 551.5,161.7 589.6,159.2 627.6,194.0 665.7,226.4 703.7,249.0 741.7,265.0 779.8,270.6 817.8,276.2 855.9,274.6 893.9,253.5 932.0,205.3 970.0,202.9" fill="none" stroke="#D55E00" stroke-width="2.2"/>
+<circle cx="95.0" cy="172.8" r="3" fill="#D55E00"/>
+<circle cx="133.0" cy="162.8" r="3" fill="#D55E00"/>
+<circle cx="171.1" cy="181.6" r="3" fill="#D55E00"/>
+<circle cx="209.1" cy="216.7" r="3" fill="#D55E00"/>
+<circle cx="247.2" cy="251.3" r="3" fill="#D55E00"/>
+<circle cx="285.2" cy="313.4" r="3" fill="#D55E00"/>
+<circle cx="323.3" cy="326.6" r="3" fill="#D55E00"/>
+<circle cx="361.3" cy="331.7" r="3" fill="#D55E00"/>
+<circle cx="399.3" cy="329.1" r="3" fill="#D55E00"/>
+<circle cx="437.4" cy="311.8" r="3" fill="#D55E00"/>
+<circle cx="475.4" cy="271.6" r="3" fill="#D55E00"/>
+<circle cx="513.5" cy="210.1" r="3" fill="#D55E00"/>
+<circle cx="551.5" cy="161.7" r="3" fill="#D55E00"/>
+<circle cx="589.6" cy="159.2" r="3" fill="#D55E00"/>
+<circle cx="627.6" cy="194.0" r="3" fill="#D55E00"/>
+<circle cx="665.7" cy="226.4" r="3" fill="#D55E00"/>
+<circle cx="703.7" cy="249.0" r="3" fill="#D55E00"/>
+<circle cx="741.7" cy="265.0" r="3" fill="#D55E00"/>
+<circle cx="779.8" cy="270.6" r="3" fill="#D55E00"/>
+<circle cx="817.8" cy="276.2" r="3" fill="#D55E00"/>
+<circle cx="855.9" cy="274.6" r="3" fill="#D55E00"/>
+<circle cx="893.9" cy="253.5" r="3" fill="#D55E00"/>
+<circle cx="932.0" cy="205.3" r="3" fill="#D55E00"/>
+<circle cx="970.0" cy="202.9" r="3" fill="#D55E00"/>
+<line x1="95" y1="124" x2="123" y2="124" stroke="#111111" stroke-width="2.5"/>
+<text x="131" y="128" font-size="12" fill="#111">Actual demand</text>
+<line x1="325" y1="124" x2="353" y2="124" stroke="#0072B2" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="361" y="128" font-size="12" fill="#111">Weekly baseline (demand 168 h earlier)</text>
+<line x1="655" y1="124" x2="683" y2="124" stroke="#D55E00" stroke-width="2.5"/>
+<text x="691" y="128" font-size="12" fill="#111">Ridge (frozen, alpha 100)</text>
+</svg>
