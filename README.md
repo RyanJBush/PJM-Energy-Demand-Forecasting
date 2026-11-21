@@ -1,4 +1,9 @@
-# PJM energy demand forecasting: weekly baseline vs one frozen ridge model
+# PJM Energy Demand Forecasting
+
+**Machine Learning for Electricity Demand Forecasting**
+
+A reproducible historical electricity-demand forecasting experiment comparing a weekly seasonal baseline with a
+frozen Ridge regression model on PJM data from EIA-930.
 
 **RETROSPECTIVE SIMULATION.** Everything here is a historical replay on one fixed EIA-930 snapshot. It is
 not a live forecast and not evidence of real-time performance. Python standard library only (plus `tzdata` on
@@ -52,8 +57,8 @@ The SVG is deterministic: regenerating it should leave `git diff --exit-code doc
 Python 3.12 or 3.13 and Git are required.
 
 ```powershell
-git clone https://github.com/RyanJBush/pjm-demand-forecast.git
-cd pjm-demand-forecast
+git clone https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting.git
+cd PJM-Energy-Demand-Forecasting
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
 .\.venv\Scripts\python.exe -m pytest -q -rs
