@@ -166,7 +166,9 @@ final moves are not coordinated.
   features. The result says nothing about other regions, seasons or live operation.
 - The baseline beat the ridge on the October tuning block and the cause of the Dec 25 miss is not established, so
   the test-block gain should be read with caution.
-- Results are verified on Windows 11 only (Python 3.12.5 and 3.13.7). No hosted CI is configured for this project.
+- Results are verified on Windows 11 only (Python 3.12.5 and 3.13.7). GitHub Actions
+  (`.github/workflows/tests.yml`) runs only the synthetic tests, on Windows and Ubuntu with Python 3.12 and 3.13.
+  It does not download the snapshot, so the three real-snapshot checks are skipped there.
 
 ## Exit codes
 
