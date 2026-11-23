@@ -1,6 +1,6 @@
 # Runs the synthetic test suite. The three real-snapshot checks need the EIA-930 file
 # (EIA930_SNAPSHOT_CSV), which CI does not download, so they are reported as skipped.
-name: tests
+name: synthetic tests
 
 on:
   push:
