@@ -1,5 +1,7 @@
 # PJM Energy Demand Forecasting
 
+[![Synthetic tests (CI)](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/actions/workflows/tests.yml)
+
 **Machine Learning for Electricity Demand Forecasting**
 
 A reproducible historical electricity-demand forecasting experiment comparing a weekly seasonal baseline with a
